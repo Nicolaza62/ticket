@@ -1,0 +1,64 @@
+
+.texto-center{
+    text-align: center;
+}
+
+.card-groups  {
+    text-align: center;
+    display: flex;
+    align-content: center !important;
+    justify-content: center;
+    margin-top: 1em;
+ 
+} 
+
+.cabgral {
+    background-color: #343A40;
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+align-content: right;
+
+
+}
+
+.cabeza{
+    background-color: #343A40;
+display: flex;
+flex-direction: row;
+list-style: none;
+align-content: space-between;
+
+
+}
+
+
+
+
+
+
+.card {margin: auto;
+border-radius: 0px;}
+
+.row row-cols-1 row-cols-md-3 g-2 {
+    padding: 10em;
+    color: blue;
+}
+
+@media (max-width: 600px) {
+    .facet_sidebar {
+      display: none;
+    }
+    .card-groups  {text-align: center;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-content: center !important;
+        
+  }
+  
+  .row{
+    display: contents;
+  }
+} 
+

@@ -1,0 +1,127 @@
+
+#fondo_sobre_img{
+position: absolute; top: 220px; left: 650px;
+    width: 545px;
+   height: 150px;
+   text-align: right;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+.slider {
+   width: vw;
+   border: 1 red;
+   list-style:none;
+  
+   /*overflow: hidden;*/
+}
+
+.slider ul {
+   display: flex;
+   list-style:none;
+   animation: cambio 10s infinite normal linear;
+}
+
+.slider li {
+   list-style: none;
+}
+
+.slider img {
+   width: 100vw;
+}
+
+@keyframes cambio {
+   0% {margin-left: 0;}
+   33% {margin-left: 0;}
+   
+   36% {margin-left: -100%;}
+   69% {margin-left: -100%;}
+   
+   70% {margin-left: -200%;}
+   100% {margin-left: -200%;}
+
+}
+
+
+
+
+
+
+  
+  .flex_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.texto_imagen{
+
+    max-width: 100%;
+    width: 500px;
+}
+.sobres_img{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items:normal;
+}
+
+#fondo_sobre_img H1{font-size: 1.5vw;
+
+}
+#fondo_sobre_img H2{font-size: 1vw;
+
+}
+
+#fondo1{
+    width: 1280px;
+    height:480px;
+    background-image: url(../assets/imagenes/ba1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-origin: content-box;
+    list-style: none;
+    filter: brightness(60%);
+-webkit-filter: brightness(60%);
+-moz-filter: brightness(60%);
+}
+
+#fondo2{
+    width: 1280px;
+    height: 480px;
+    background-image: url(../assets/imagenes/ba2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    filter: brightness(60%);
+-webkit-filter: brightness(60%);
+-moz-filter: brightness(60%);
+    
+}
+#fondo3{
+    width: 1280px;
+    height: 480px;
+    background-image: url(../assets/imagenes/ba3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(70%);
+    -webkit-filter: brightness(70%);
+    -moz-filter: brightness(70%);
+}
+
+#fondo_sobre_img{
+ position: absolute; top: 220px; left: 650px;
+     width: 545px;
+    height: 150px;
+    text-align: right;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+ 
